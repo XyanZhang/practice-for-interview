@@ -1,0 +1,25 @@
+{
+  "name": "practice-for-interview",
+  "version": "1.0.0",
+  "description": "Self repository for interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XyanZhang/practice-for-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XyanZhang/practice-for-interview/issues"
+  },
+  "homepage": "https://github.com/XyanZhang/practice-for-interview#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "husky": "^7.0.4"
+  }
+}
