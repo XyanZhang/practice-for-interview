@@ -20,12 +20,13 @@
   "homepage": "https://github.com/XyanZhang/practice-for-interview#readme",
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-angular": "^16.0.0",
     "@commitlint/config-conventional": "^16.0.0",
     "husky": "^7.0.4"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
