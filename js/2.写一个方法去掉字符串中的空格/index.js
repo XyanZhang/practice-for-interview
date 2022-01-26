@@ -7,7 +7,7 @@ function trim(str) {
     }
     console.log(trimStr)
 }
-trim(str)
+trim(str)  
 
 var trim = function(str){
     return str.replace(/\s*/g,"");
